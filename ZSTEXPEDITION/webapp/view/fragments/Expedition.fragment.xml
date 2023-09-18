@@ -1,0 +1,21 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns:table="sap.ui.table" 
+	xmlns:u="sap.ui.unified" xmlns:l="sap.ui.layout">
+	<Dialog title="{i18n>popUpTitle}">
+    	<l:VerticalLayout>
+    	<MessageStrip
+				text="{i18n>popUpDescrip}"
+				showIcon="true"
+				class="sapUiTinyMargin"
+				>
+			</MessageStrip>
+
+
+        <Input id="id-expedicion"  placeholder="123456789" class="sapUiTinyMargin"/>
+        	</l:VerticalLayout>
+        	<!-- <footer> -->
+                <Button type="Success" text="{i18n>srch}" press="onSearchExp" icon="sap-icon://search" class="sapUiTinyMargin" />
+		        <!-- <Button design="Emphasized"  text="{i18n>close}" press="onCloseExp" class="sapUiTinyMarginTop sapUiTinyMarginBottom" /> -->
+			<!-- </footer> -->
+       
+	</Dialog>
+</core:FragmentDefinition>
